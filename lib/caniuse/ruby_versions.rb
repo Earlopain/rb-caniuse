@@ -7,6 +7,12 @@ module Caniuse
     module_function
 
     def fetch
+      data.map do |v|
+        RubyVersion.new(v[:version], v[:url], v[:sha256])
+      end
+    end
+
+    def data
       res = Net::HTTP.get_response(DATA_URL)
       raise StandardError, "Got status code #{res.code}: #{res.body}" unless res.code == "200"
 
@@ -24,7 +30,7 @@ module Caniuse
 
     def transform(data)
       grouped = data.group_by { _1["version"].to_f }
-      grouped.transform_values do |releases|
+      grouped.map do |_, releases|
         release = releases.max_by { Gem::Version.new(_1["version"]) }
         {
           version: release["version"],

@@ -9,6 +9,6 @@ RSpec.describe Caniuse::RubyVersions do
   it "returns correct versions" do
     expected = File.read("./fixtures/releases_filtered.yml")
     yml = Psych.safe_load(expected, permitted_classes: [Symbol])
-    expect(described_class.fetch).to eq(yml)
+    expect(described_class.data).to eq(yml)
   end
 end

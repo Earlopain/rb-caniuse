@@ -16,10 +16,14 @@ GEM
     parser (3.3.4.2)
       ast (~> 2.4.1)
       racc
+    psych (5.1.2)
+      stringio
     public_suffix (6.0.1)
     racc (1.8.1)
     rainbow (3.1.1)
     rake (13.2.1)
+    rdoc (6.7.0)
+      psych (>= 4.0.0)
     regexp_parser (2.9.2)
     rexml (3.3.5)
       strscan
@@ -54,6 +58,7 @@ GEM
     rubocop-rspec (3.0.4)
       rubocop (~> 1.61)
     ruby-progressbar (1.13.0)
+    stringio (3.1.1)
     strscan (3.1.0)
     unicode-display_width (2.5.0)
     webmock (3.23.1)
@@ -67,6 +72,7 @@ PLATFORMS
 
 DEPENDENCIES
   rake
+  rdoc
   rspec
   rubocop
   rubocop-rake
