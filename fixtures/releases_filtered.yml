@@ -1,0 +1,45 @@
+---
+3.3:
+  :version: 3.3.4
+  :url: https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.4.tar.xz
+  :sha256: 1caaee9a5a6befef54bab67da68ace8d985e4fb59cd17ce23c28d9ab04f4ddad
+3.2:
+  :version: 3.2.5
+  :url: https://cache.ruby-lang.org/pub/ruby/3.2/ruby-3.2.5.tar.xz
+  :sha256: 7780d91130139406d39b29ed8fe16bba350d8fa00e510c76bef9b8ec1340903c
+3.1:
+  :version: 3.1.6
+  :url: https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.6.tar.xz
+  :sha256: 597bd1849f252d8a6863cb5d38014ac54152b508c36dca156f6356a9e63c6102
+3.0:
+  :version: 3.0.7
+  :url: https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.7.tar.xz
+  :sha256: 1748338373c4fad80129921080d904aca326e41bd9589b498aa5ee09fd575bab
+2.7:
+  :version: 2.7.8
+  :url: https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.8.tar.xz
+  :sha256: f22f662da504d49ce2080e446e4bea7008cee11d5ec4858fc69000d0e5b1d7fb
+2.6:
+  :version: 2.6.10
+  :url: https://cache.ruby-lang.org/pub/ruby/2.6/ruby-2.6.10.tar.xz
+  :sha256: 5fd8ded51321b88fdc9c1b4b0eb1b951d2eddbc293865da0151612c2e814c1f2
+2.5:
+  :version: 2.5.9
+  :url: https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.9.tar.xz
+  :sha256: a87f2fa901408cc77652c1a55ff976695bbe54830ff240e370039eca14b358f0
+2.4:
+  :version: 2.4.10
+  :url: https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.10.tar.xz
+  :sha256: d5668ed11544db034f70aec37d11e157538d639ed0d0a968e2f587191fc530df
+2.3:
+  :version: 2.3.8
+  :url: https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.8.tar.xz
+  :sha256: 910f635d84fd0d81ac9bdee0731279e6026cb4cd1315bbbb5dfb22e09c5c1dfe
+2.2:
+  :version: 2.2.10
+  :url: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.10.tar.xz
+  :sha256: bf77bcb7e6666ccae8d0882ea12b05f382f963f0a9a5285a328760c06a9ab650
+2.1:
+  :version: 2.1.10
+  :url: https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.10.tar.xz
+  :sha256: 5be9f8d5d29d252cd7f969ab7550e31bbb001feb4a83532301c0dd3b5006e148
