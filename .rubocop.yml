@@ -1,8 +1,16 @@
+
+inherit_mode:
+  merge:
+    - Exclude
+
 require:
   - rubocop-rake
   - rubocop-rspec
 
 AllCops:
+  Exclude:
+    - cache/**/*
+    - docs/**/*
   NewCops: enable
 
 Style/StringLiterals:
